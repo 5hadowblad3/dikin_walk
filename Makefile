@@ -1,4 +1,4 @@
-all: dikin_walk.c dikin_walk.h
+all: dikin_walk.cpp dikin_walk.h
 	gcc dikin_walk.c -o dikin_walk -Larmadillo/build -larmadillo
 
 clean:
